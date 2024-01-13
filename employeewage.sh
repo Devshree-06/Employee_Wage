@@ -1,6 +1,6 @@
 wageHour=20
-fulldayWork=8
-dailyWage=$((wageHour*fulldayWork))
+partTimeHour=4
+partTimeWage=$((wageHour*partTimeHour))
 
-echo "Daily Wage of Employee is"
-echo $dailyWage
+echo "Part Time Wage of Employee is"
+echo $partTimeWage
