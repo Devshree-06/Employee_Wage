@@ -1,9 +1,6 @@
-isPresent=1
-checkAttendance=$((RANDOM%2))
-if [ $isPresent -eq $checkAttendance ]
-then
-     echo "Employee is present"
-else
-     echo "Employee is absent"
+wageHour=20
+fulldayWork=8
+dailyWage=$((wageHour*fulldayWork))
 
-fi
+echo "Daily Wage of Employee is"
+echo $dailyWage
